@@ -261,7 +261,13 @@ BO_ 1568 SEATS_DOORS: 8 XXX
  SG_ DOOR_OPEN_FR : 44|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 1570 LIGHT_STALK: 8 SCM
+ SG_ SET_ME_X12 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ SET_ME_X08 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ SET_ME_X03 : 29|2@0+ (1,0) [0|3] "" XXX
+ SG_ HIGH_BEAM_ON : 30|1@0+ (1,0) [0|7] "" XXX
  SG_ AUTO_HIGH_BEAM : 37|1@0+ (1,0) [0|1] "" XXX
+ SG_ HIGH_BEAM_LEVER : 38|1@0+ (1,0) [0|3] "" XXX
+ SG_ STATE_TRANSITION : 15|1@0+ (1,0) [0|3] "" XXX
 
 BO_ 1161 RSA1: 8 FCM
  SG_ TSGN1 : 7|8@0+ (1,0) [0|0] "" XXX
@@ -326,6 +332,9 @@ CM_ SG_ 921 UI_SET_SPEED "set speed shown in UI with user set unit";
 CM_ SG_ 951 BRAKE_LIGHTS_ACC "brake lights when ACC commands decel";
 CM_ SG_ 1042 SET_ME_1 "unclear what this is, but it's always 1 in drive traces";
 CM_ SG_ 1042 REPEATED_BEEPS "recommended for fcw and other important alerts";
+CM_ SG_ 1570 HIGH_BEAM_ON "1 when the high beam lights are on.";
+CM_ SG_ 1570 AUTO_HIGH_BEAM "The auto high beam state; 1 when auto HB is available, 0 otherwise.";
+CM_ SG_ 1570 HIGH_BEAM_LEVER "The state of the high beam lever on the steering wheel.";
 CM_ SG_ 1161 SPDVAL1 "Numbers 0-199 is displayed, 200-254 displays circle without number and 255 is for no limit.";
 CM_ SG_ 1161 SYNCID1 "counter from 1 to f at 1 Hz";
 CM_ SG_ 1161 SPDVAL2 "conditional speed value 70"
