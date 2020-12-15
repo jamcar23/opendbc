@@ -342,7 +342,7 @@ CM_ SG_ 1570 DASH_ICON "When this is 1, the dash shows the head light icon.";
 CM_ SG_ 1570 AUTO_HIGH_BEAM_ON "When 1, auto HB is running. Might possibly be to show the auto HB icon in the dashboard.";
 CM_ SG_ 1161 SPDVAL1 "Numbers 0-199 is displayed, 200-254 displays circle without number and 255 is for no limit.";
 CM_ SG_ 1161 SYNCID1 "counter from 1 to f at 1 Hz";
-CM_ SG_ 1161 SPDVAL2 "conditional speed value 70"
+CM_ SG_ 1161 SPDVAL2 "conditional speed value 70";
 CM_ SG_ 1162 SGNNUMP "1 if SPDVAL1 is set, otherwise 0";
 CM_ SG_ 1162 SYNCID2 "counter from 1 to f at 1 Hz";
 CM_ SG_ 1163 TSREQPD "always 1";
